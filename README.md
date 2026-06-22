@@ -35,10 +35,11 @@ record and not the engineer — you are the person who makes the tool stick.
 | [Skeptical-partner objections](enablement/skeptical-partner-objections.md) | A partner is pushing back and you need an evidence-based answer, fast. |
 | [Follow-up email templates](enablement/follow-up-email-templates.md) | A session just ended, or usage dipped, and you need to send the right note. |
 | [Product-feedback template](enablement/product-feedback-template.md) | You watched a user hit friction and want to turn it into a product requirement. |
+| [Customer workflow](docs/customer-workflow.md) | You need the standard context on the typical customer workflow. |
+| [Product-feedback notes](docs/product-feedback-notes.md) | You need the standard repository file for worked product feedback examples. |
+| [Reviewer guide](docs/reviewer-guide.md) | You need the standard guidance for reviewing these artifacts. |
 
-Supporting docs: [reviewer guide](docs/reviewer-guide.md), [customer workflow](docs/customer-workflow.md),
-[worked product-feedback notes](docs/product-feedback-notes.md), and an
-[example intake](examples/synthetic-input.json) with its [prioritization result](examples/sample-output.md).
+Also includes an [example intake](examples/synthetic-input.json) with its [prioritization result](examples/sample-output.md).
 
 ## How to use it in a rollout
 
