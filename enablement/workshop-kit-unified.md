@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [Legal AI Workshop Kit](#readme)
+- [legal-ai-workshop-kit](#readme)
 - [What this proves](#what-this-proves)
 - [Reviewer guide](#docs-reviewer-guide)
 - [Customer workflow](#docs-customer-workflow)
@@ -28,18 +28,58 @@
 <div id="readme">
 
 
-## Legal AI Workshop Kit
+## legal-ai-workshop-kit
 
 
 
-The deliverables for running a legal-AI rollout with a law firm or in-house team —
-agendas, discovery tools, objection handling, and feedback templates. Everything here is
-ready to use in a real engagement; the framing is generic and contains no client data.
+See [CASE_STUDY.md](../CASE_STUDY.md) for the problem, controls, and limitations.
+
+Enablement materials for legal AI — partner briefings, associate hands-on, adoption questionnaires, workflow discovery. Not legal advice; data is synthetic.
+
+> **If you don't code:** scroll to [What the demo produces](#what-the-demo-produces). This repo ships a sample output you can read in the browser. The point isn't the code; it's whether the legal work is structured, cited, reviewable, and testable.
+
+![demo](../docs/demo.png)
+
+## Run it
+
+```bash
+git clone https://github.com/sebastianfoerste/legal-ai-workshop-kit
+cd legal-ai-workshop-kit
+make generate-pilot
+```
+
+Runs end to end, offline and deterministically.
+
+## What the demo produces
+
+The demo scores candidate workflows through the prioritization matrix and outputs the recommended first pilot based on impact, frequency, AI fit, and review feasibility. You can read the committed sample output: [`examples/workshop-outcome.md`](../examples/workshop-outcome.md).
+
+```markdown
+# Sample output — prioritization result
+
+| Candidate workflow | Impact | Frequency | AI fit | Review feasibility | Total |
+|---|---:|---:|---:|---:|---:|
+| NDA first-pass review | 4 | 5 | 5 | 5 | **19** |
+| Clause comparison across versions | 4 | 4 | 5 | 5 | **18** |
+| Document / issue summary | 3 | 5 | 4 | 4 | **16** |
+```
+
+In the sample run, the matrix turns a demo into a prioritised adoption plan, not a one-off session.
+
+## What it checks / does
+
+| Document / Tool | Focus | Verification Method |
+|---|---|---|
+| Discovery Questionnaire | Readiness check | Assesses Firm/Team operational and technological readiness |
+| Prioritization Matrix | Use-case ranking | Evaluates workflows against feasibility and business impact |
+| Product-Feedback Template | Product improvement | Translates user friction observed in workshops into requirements |
+
+---
 
 > **What workflow does this improve?** Onboarding and enablement — getting partners, associates, and in-house counsel actually using legal AI after the contract is signed.
 > **Who is the user?** A Legal Engineer, CSM, or Innovation lead running the rollout.
 > **Where does human review happen?** Every agenda and template keeps the rule explicit: AI produces a first pass, a named lawyer signs off before reliance.
-> **What is blocked until approval?** Nothing ships to a client or a court on AI output alone. The kit teaches the review gate, it does not remove it.
+> **What is blocked until approval?** Nothing ships to a court or client on AI output alone. The kit teaches the review gate, it does not remove it.
 > **What would I tell Product?** The product-feedback template turns what you observe in sessions into structured requirements for Engineering.
 
 ## Problem
