@@ -1,5 +1,7 @@
 # legal-ai-workshop-kit
 
+See [CASE_STUDY.md](CASE_STUDY.md) for the problem, controls, and limitations.
+
 Enablement materials for legal AI — partner briefings, associate hands-on, adoption questionnaires, workflow discovery. Not legal advice; data is synthetic.
 
 > **If you don't code:** scroll to [What the demo produces](#what-the-demo-produces). This repo ships a sample output you can read in the browser. The point isn't the code; it's whether the legal work is structured, cited, reviewable, and testable.

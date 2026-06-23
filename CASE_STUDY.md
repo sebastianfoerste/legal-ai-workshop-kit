@@ -1,59 +1,28 @@
-# Case Study: Legal AI Workshop Kit
+# Case study — legal-ai-workshop-kit
 
-## Legal problem
+> Adoption starts with a credible room: partners and associates who leave a workshop with a prioritised plan, not a wow moment. Synthetic data only; not legal advice.
 
-Many legal AI initiatives fail because lawyers receive tool access without enough workflow discovery, practical exercises or follow up.
+## Problem
+Legal AI enablement usually means a vendor demo and a hopeful follow-up. Sophisticated lawyers — partners at top firms, DAX in-house teams — are not won by a demo; they are won by a credible, structured session that surfaces *their* workflows, ranks them honestly, and ends with a concrete next step. Most teams have no repeatable way to run that.
 
-Legal teams need enablement materials that connect AI capabilities to real legal work, review duties and responsible adoption.
+## Users
+A legal engineer, innovation lead, or customer-success specialist who has to stand in front of partners and associates and make AI feel useful, safe, and worth their week.
 
-## Product problem
+## Workflow
+1. **Partner briefing** — framing and risk posture for decision-makers.
+2. **Associate hands-on** — guided tasks on real-shaped (synthetic) work.
+3. **Workflow discovery** — surface candidate workflows with frequency, pain, AI-fit, and review-risk.
+4. **Prioritisation** — an impact × feasibility grid selects a pilot.
+5. **Adoption plan** — a 30-day rollout with a measurable success metric and a follow-up cadence.
 
-A legal AI product or implementation team needs workshop materials that help users move from curiosity to practical usage.
+## Controls
+The discovery exercise scores **review risk** alongside AI fit, so the pilot chosen is one that is safe to automate first. Success is defined as a measured metric (time saved, reviewer-accepted rate), not enthusiasm.
 
-The product challenge is to translate abstract AI features into workflows that lawyers can understand, test and improve.
+## Evaluation
+The bundled outcome (`examples/workshop-outcome.md`) takes a synthetic session to a single prioritised pilot (first-pass NDA review) with a 30-day plan and the adoption signals to watch — a demo converted into an adoption decision.
 
-## Workflow design
+## Limitations
+Materials are templates; real sessions need tailoring to the firm and practice area. The prioritisation grid encodes judgment that should be revisited with each audience.
 
-The kit supports:
-
-1. Partner briefings
-2. Associate hands on sessions
-3. Workflow discovery
-4. Adoption questionnaires
-5. Follow up planning
-6. Practical enablement artifacts
-
-## AI risk addressed
-
-The project addresses:
-
-1. Shallow adoption after training
-2. Unclear use cases
-3. Overconfidence in generated text
-4. Weak review habits
-5. Missing connection between product capability and legal workflow
-
-## Human review model
-
-The workshop materials are designed to reinforce human review, source checking and responsible use.
-
-The goal is not to make lawyers less responsible. The goal is to help them use AI with clearer workflows and better judgment.
-
-## Evaluation or quality control
-
-Quality is assessed by whether the materials help identify useful workflows, surface adoption blockers and generate practical follow up actions.
-
-## What I would improve next
-
-1. Add a facilitator guide
-2. Add workshop agendas for different seniority levels
-3. Add sample before and after workflow maps
-4. Add feedback forms
-5. Add a follow up adoption checklist
-6. Add screenshots or examples of completed exercises
-
-## Relevance for Legal Engineer / Product Specialist roles
-
-This project demonstrates legal AI enablement skills: workflow discovery, training design, user empathy and responsible adoption.
-
-It is relevant for roles that combine product knowledge, legal domain expertise, implementation work and customer education.
+## Next steps
+Add a `TEAM_PLAYBOOK.md` for running these consistently across a team (included); connect the discovered workflows to the adoption dashboard; build a library of practice-area-specific hands-on tasks.
