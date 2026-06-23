@@ -1,13 +1,51 @@
-# Legal AI Workshop Kit
+# legal-ai-workshop-kit
 
-The deliverables for running a legal-AI rollout with a law firm or in-house team —
-agendas, discovery tools, objection handling, and feedback templates. Everything here is
-ready to use in a real engagement; the framing is generic and contains no client data.
+Enablement materials for legal AI — partner briefings, associate hands-on, adoption questionnaires, workflow discovery. Not legal advice; data is synthetic.
+
+> **If you don't code:** scroll to [What the demo produces](#what-the-demo-produces). This repo ships a sample output you can read in the browser. The point isn't the code; it's whether the legal work is structured, cited, reviewable, and testable.
+
+![demo](docs/demo.png)
+
+## Run it
+
+```bash
+git clone https://github.com/sebastianfoerste/legal-ai-workshop-kit
+cd legal-ai-workshop-kit
+make generate-pilot
+```
+
+Runs end to end, offline and deterministically.
+
+## What the demo produces
+
+The demo scores candidate workflows through the prioritization matrix and outputs the recommended first pilot based on impact, frequency, AI fit, and review feasibility. You can read the committed sample output: [`examples/workshop-outcome.md`](examples/workshop-outcome.md).
+
+```markdown
+# Sample output — prioritization result
+
+| Candidate workflow | Impact | Frequency | AI fit | Review feasibility | Total |
+|---|---:|---:|---:|---:|---:|
+| NDA first-pass review | 4 | 5 | 5 | 5 | **19** |
+| Clause comparison across versions | 4 | 4 | 5 | 5 | **18** |
+| Document / issue summary | 3 | 5 | 4 | 4 | **16** |
+```
+
+In the sample run, the matrix turns a demo into a prioritised adoption plan, not a one-off session.
+
+## What it checks / does
+
+| Document / Tool | Focus | Verification Method |
+|---|---|---|
+| Discovery Questionnaire | Readiness check | Assesses Firm/Team operational and technological readiness |
+| Prioritization Matrix | Use-case ranking | Evaluates workflows against feasibility and business impact |
+| Product-Feedback Template | Product improvement | Translates user friction observed in workshops into requirements |
+
+---
 
 > **What workflow does this improve?** Onboarding and enablement — getting partners, associates, and in-house counsel actually using legal AI after the contract is signed.
 > **Who is the user?** A Legal Engineer, CSM, or Innovation lead running the rollout.
 > **Where does human review happen?** Every agenda and template keeps the rule explicit: AI produces a first pass, a named lawyer signs off before reliance.
-> **What is blocked until approval?** Nothing ships to a client or a court on AI output alone. The kit teaches the review gate, it does not remove it.
+> **What is blocked until approval?** Nothing ships to a court or client on AI output alone. The kit teaches the review gate, it does not remove it.
 > **What would I tell Product?** The product-feedback template turns what you observe in sessions into structured requirements for Engineering.
 
 ## Problem
@@ -32,9 +70,12 @@ record and not the engineer — you are the person who makes the tool stick.
 | [Adoption questionnaire](discovery/adoption-questionnaire.md) | You are scoping an account and need to score its readiness. |
 | [Workflow discovery template](discovery/workflow-discovery-template.md) | You are mapping a real workflow to a candidate AI use case. |
 | [Use-case prioritization matrix](discovery/use-case-prioritization-matrix.md) | You have a list of candidate use cases and need to pick what to pilot first. |
+| [ROI & value worksheet](discovery/roi-calculator.md) | You need a worksheet to calculate hours saved and direct financial ROI. |
 | [Skeptical-partner objections](enablement/skeptical-partner-objections.md) | A partner is pushing back and you need an evidence-based answer, fast. |
 | [Follow-up email templates](enablement/follow-up-email-templates.md) | A session just ended, or usage dipped, and you need to send the right note. |
 | [Product-feedback template](enablement/product-feedback-template.md) | You watched a user hit friction and want to turn it into a product requirement. |
+| [Adoption maturity model](enablement/adoption-maturity-model.md) | You need a structured framework to map dashboard metrics to rollout stages. |
+| [Unified Playbook (Markdown)](enablement/workshop-kit-unified.md) / [HTML](enablement/workshop-kit-unified.html) | You want a single compiled document for review containing all assets. |
 | [Customer workflow](docs/customer-workflow.md) | You need the standard context on the typical customer workflow. |
 | [Product-feedback notes](docs/product-feedback-notes.md) | You need the standard repository file for worked product feedback examples. |
 | [Reviewer guide](docs/reviewer-guide.md) | You need the standard guidance for reviewing these artifacts. |
