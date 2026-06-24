@@ -1,6 +1,6 @@
 # legal-ai-workshop-kit
 
-See [CASE_STUDY.md](CASE_STUDY.md) for the problem, controls, and limitations.
+See [CASE_STUDY.md](CASE_STUDY.md) for the problem, controls, and limitations, and [TEAM_PLAYBOOK.md](TEAM_PLAYBOOK.md) for the team operating guidelines.
 
 Enablement materials for legal AI — partner briefings, associate hands-on, adoption questionnaires, workflow discovery. Not legal advice; data is synthetic.
 
