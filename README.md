@@ -77,6 +77,7 @@ record and not the engineer — you are the person who makes the tool stick.
 | [Follow-up email templates](enablement/follow-up-email-templates.md) | A session just ended, or usage dipped, and you need to send the right note. |
 | [Product-feedback template](enablement/product-feedback-template.md) | You watched a user hit friction and want to turn it into a product requirement. |
 | [Adoption maturity model](enablement/adoption-maturity-model.md) | You need a structured framework to map dashboard metrics to rollout stages. |
+| [First 90 days deployment plan](enablement/first-90-days-deployment-plan.md) | You are forward-deployed and need a measurable day-1-to-90 rollout sequence. |
 | [Unified Playbook (Markdown)](enablement/workshop-kit-unified.md) / [HTML](enablement/workshop-kit-unified.html) | You want a single compiled document for review containing all assets. |
 | [Customer workflow](docs/customer-workflow.md) | You need the standard context on the typical customer workflow. |
 | [Product-feedback notes](docs/product-feedback-notes.md) | You need the standard repository file for worked product feedback examples. |

@@ -32,7 +32,7 @@
 
 
 
-See [CASE_STUDY.md](../CASE_STUDY.md) for the problem, controls, and limitations.
+See [CASE_STUDY.md](../CASE_STUDY.md) for the problem, controls, and limitations, and [TEAM_PLAYBOOK.md](../TEAM_PLAYBOOK.md) for the team operating guidelines.
 
 Enablement materials for legal AI — partner briefings, associate hands-on, adoption questionnaires, workflow discovery. Not legal advice; data is synthetic.
 
@@ -109,6 +109,7 @@ record and not the engineer — you are the person who makes the tool stick.
 | [Follow-up email templates](#enablement-follow-up-email-templates) | A session just ended, or usage dipped, and you need to send the right note. |
 | [Product-feedback template](#enablement-product-feedback-template) | You watched a user hit friction and want to turn it into a product requirement. |
 | [Adoption maturity model](#enablement-adoption-maturity-model) | You need a structured framework to map dashboard metrics to rollout stages. |
+| [First 90 days deployment plan](first-90-days-deployment-plan.md) | You are forward-deployed and need a measurable day-1-to-90 rollout sequence. |
 | [Unified Playbook (Markdown)](workshop-kit-unified.md) / [HTML](workshop-kit-unified.html) | You want a single compiled document for review containing all assets. |
 | [Customer workflow](#docs-customer-workflow) | You need the standard context on the typical customer workflow. |
 | [Product-feedback notes](#docs-product-feedback-notes) | You need the standard repository file for worked product feedback examples. |
