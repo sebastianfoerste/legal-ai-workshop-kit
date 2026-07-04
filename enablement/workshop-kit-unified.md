@@ -35,6 +35,7 @@
 Enablement materials for legal AI adoption: partner briefings, associate hands-on sessions, adoption questionnaires, workflow discovery, prioritization matrices, product-feedback templates, and rollout follow-up materials.
 
 All examples are synthetic. The repository is a public-safe portfolio project and does not provide legal advice.
+Portfolio proof contract: [`docs/portfolio-proof.json`](../docs/portfolio-proof.json).
 
 ## Run it
 
@@ -96,8 +97,8 @@ All examples are generic or synthetic. No real client, firm, matter, or personal
 
 
 
-Building a legal-AI tool is one job. Getting a skeptical partnership to actually use it is a
-different one, and it is the one a serious adoption path requires. This
+Building a legal-AI tool is only the start. Adoption depends on whether a skeptical
+partnership can see the workflow, the review gate, and the commercial reason to use it.
 This repo packages that adoption layer.
 
 | Document | Responsibility it demonstrates |
@@ -113,8 +114,8 @@ This repo packages that adoption layer.
 | [Product-feedback template](#enablement-product-feedback-template) | Translating field friction into structured requirements for Engineering. |
 
 The through-line: every artifact keeps the human-review gate explicit and treats trust as
-the thing to earn first. That is what makes legal AI adoptable inside a regulated practice,
-and it is the judgment the adoption path requires.
+the thing to earn first. That makes legal AI adoptable inside a regulated practice and gives
+product teams concrete signals for the next workflow.
 
 
 </div>
@@ -136,8 +137,7 @@ A five-minute path for a reviewer who is not going to read every document.
    how a session is run: it ends in committed workflows and keeps the review gate on screen
    the whole hour. This is the core deliverable.
 3. **Open the [product-feedback template](#enablement-product-feedback-template).** Read
-   the worked example. This is the artifact that turns what you see in a session into a
-   requirement Engineering can act on — the proof point for adoption work.
+   the worked example. It turns session evidence into a requirement Engineering can act on.
 4. **Skim the [prioritization matrix](#discovery-use-case-prioritization-matrix).** Note
    the floor rule: never pilot a workflow you cannot cheaply verify, regardless of impact.
    That single rule captures the trust-first judgment behind the whole kit.

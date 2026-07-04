@@ -3,6 +3,7 @@
 Enablement materials for legal AI adoption: partner briefings, associate hands-on sessions, adoption questionnaires, workflow discovery, prioritization matrices, product-feedback templates, and rollout follow-up materials.
 
 All examples are synthetic. The repository is a public-safe portfolio project and does not provide legal advice.
+Portfolio proof contract: [`docs/portfolio-proof.json`](docs/portfolio-proof.json).
 
 ## Run it
 
