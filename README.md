@@ -5,6 +5,8 @@ Enablement materials for legal AI adoption: partner briefings, associate hands-o
 All examples are synthetic. The repository is a public-safe portfolio project and does not provide legal advice.
 Portfolio proof contract: [`docs/portfolio-proof.json`](docs/portfolio-proof.json).
 
+This repository is a release surface. The kit is maintained in [`workshop-kit/`](https://github.com/sebastianfoerste/legal-ai-adoption-dashboard/tree/main/workshop-kit) of legal-ai-adoption-dashboard, and changes reach this repository through releases from there. Open issues and pull requests against the dashboard repository.
+
 ## Run it
 
 ```bash
