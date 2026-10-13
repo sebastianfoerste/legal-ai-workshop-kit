@@ -1,11 +1,10 @@
 # legal-ai-workshop-kit
 
-Enablement materials for legal AI adoption: partner briefings, associate hands-on sessions, adoption questionnaires, workflow discovery, prioritization matrices, product-feedback templates, and rollout follow-up materials.
+Enablement materials for rolling out a legal-AI tool in a law firm or an in-house legal team: partner briefings, associate hands-on sessions, adoption questionnaires, workflow discovery, prioritization matrices, product-feedback templates, and rollout follow-up materials.
+
+The kit is for the people who run such a rollout: Legal Engineers, Customer Success Managers and innovation leads who prepare the sessions, work with the partners and associates who will use the tool, and report friction back to the product team.
 
 All examples are synthetic. The repository is a public-safe portfolio project and does not provide legal advice.
-Portfolio proof contract: [`docs/portfolio-proof.json`](docs/portfolio-proof.json).
-
-This repository is a release surface. The kit is maintained in [`workshop-kit/`](https://github.com/sebastianfoerste/legal-ai-adoption-dashboard/tree/main/workshop-kit) of legal-ai-adoption-dashboard, and changes reach this repository through releases from there. Open issues and pull requests against the dashboard repository.
 
 ## Run it
 
@@ -17,7 +16,9 @@ make generate-pilot
 
 ## What the demo produces
 
-The demo scores candidate workflows through a prioritization matrix and recommends a first pilot based on impact, frequency, AI fit, and review feasibility.
+`make generate-pilot` reads the synthetic discovery intake in [`examples/synthetic-input.json`](examples/synthetic-input.json) and writes [`examples/generated-pilot-plan.md`](examples/generated-pilot-plan.md). The script ranks the candidate workflows by estimated hours saved per week (time per instance minus verification time, multiplied by frequency), takes the top one, and fills in a staged enablement plan and communication templates for it. On the synthetic intake it selects NDA first-pass review at an estimated 7.3 hours per week. The time figures are the intake's estimates, not measurements.
+
+Scoring the candidates through the prioritization matrix on impact, frequency, AI fit and review feasibility is a separate, manual step. [`examples/sample-output.md`](examples/sample-output.md) works it through for the same intake:
 
 ```markdown
 # Sample output: prioritization result
@@ -48,6 +49,10 @@ This is the legal-AI rollout reviewer path:
 - Team playbooks in [`team/`](team/): a demo quality rubric, a discovery question bank by practice group, and a six-week onboarding plan for a new legal engineer.
 - Follow-up templates and product-feedback notes.
 - A unified playbook for reviewer evaluation.
+
+## Practitioner research pack
+
+[`research/`](research/README.md) prepares a first qualitative study round on the contract-review handoff with four to eight practitioners. It is preparation only: no invitation has been sent and no session has been held. Predictive statements elsewhere in the kit are worded as hypotheses that the study and later adoption data can check.
 
 ## Data statement
 
