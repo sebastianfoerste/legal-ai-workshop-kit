@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Archived on 2026-10-17.** Superseded by [legal-ai-adoption-dashboard](https://github.com/sebastianfoerste/legal-ai-adoption-dashboard), which carries the canonical workshop kit. Kept read-only for reference.
+
 # legal-ai-workshop-kit
 
 Enablement materials for legal AI adoption: partner briefings, associate hands-on sessions, adoption questionnaires, workflow discovery, prioritization matrices, product-feedback templates, and rollout follow-up materials.
